@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Waqhar-Portfolio/static/css/main.3a6802b9.css",
-    "main.js": "/Waqhar-Portfolio/static/js/main.f4fd6abc.js",
+    "main.css": "/Waqhar-Portfolio/static/css/main.db7a2400.css",
+    "main.js": "/Waqhar-Portfolio/static/js/main.08e34cc3.js",
     "static/js/787.bf90b066.chunk.js": "/Waqhar-Portfolio/static/js/787.bf90b066.chunk.js",
+    "static/media/at_jindal.jpg": "/Waqhar-Portfolio/static/media/at_jindal.9884b3317678a8aa3ac0.jpg",
+    "static/media/construction.png": "/Waqhar-Portfolio/static/media/construction.158afb61aebba107deff.png",
+    "static/media/weather.png": "/Waqhar-Portfolio/static/media/weather.d32ec6b2777e80e81b54.png",
+    "static/media/chefkart.png": "/Waqhar-Portfolio/static/media/chefkart.29c9417da771d163dbe3.png",
+    "static/media/zomato.png": "/Waqhar-Portfolio/static/media/zomato.652885742a377b887ebb.png",
+    "static/media/on-mountains.png": "/Waqhar-Portfolio/static/media/on-mountains.ed55d35249190183dabc.png",
     "static/media/me1.png": "/Waqhar-Portfolio/static/media/me1.ded75e8431c1df5a470e.png",
-    "static/media/project-02.png": "/Waqhar-Portfolio/static/media/project-02.927ca190f21604dcdadc.png",
-    "static/media/school.png": "/Waqhar-Portfolio/static/media/school.69f137c2c6a21c3b9a71.png",
-    "static/media/project-01.png": "/Waqhar-Portfolio/static/media/project-01.308b3bce7c0f44a91081.png",
     "index.html": "/Waqhar-Portfolio/index.html",
-    "main.3a6802b9.css.map": "/Waqhar-Portfolio/static/css/main.3a6802b9.css.map",
-    "main.f4fd6abc.js.map": "/Waqhar-Portfolio/static/js/main.f4fd6abc.js.map",
+    "main.db7a2400.css.map": "/Waqhar-Portfolio/static/css/main.db7a2400.css.map",
+    "main.08e34cc3.js.map": "/Waqhar-Portfolio/static/js/main.08e34cc3.js.map",
     "787.bf90b066.chunk.js.map": "/Waqhar-Portfolio/static/js/787.bf90b066.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a6802b9.css",
-    "static/js/main.f4fd6abc.js"
+    "static/css/main.db7a2400.css",
+    "static/js/main.08e34cc3.js"
   ]
 }
