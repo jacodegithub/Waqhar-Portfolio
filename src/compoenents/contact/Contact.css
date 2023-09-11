@@ -1,0 +1,128 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background: url(https://img.freepik.com/premium-photo/pink-orange-background-with-soft-wave-pattern_81048-12022.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cntBox-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cntBox-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: inherit;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0rem;
+    right: 2rem;
+}
+.contact-form > input {
+    width: 25rem;
+    height: 3rem;
+    margin: .5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0.5px 1px 2px black;
+    background-color: #413434;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.819);
+}
+.contact-form > input::placeholder {
+    color: white;
+}
+.contact-form > textarea {
+    width: 35rem;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #413434; 
+    box-shadow: 0.5px 1px 2px black;
+    color: rgba(255, 255, 255, 0.819);
+}
+.contact-form > textarea::placeholder{
+    color: white;
+}
+.cnt-btn {
+    width: max-content;
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.675);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cnt-btn:hover {
+    background-color: black;
+}
+.cntBox-1 > div {
+    left: 5%;
+    width: 50%;
+    position: absolute;
+    font-size: 118px;
+    font-weight: 900;
+    letter-spacing: -10px;
+    color: rgba(0, 0, 0, 0.675);
+}
+
+
+/* FOR SMALLER MEDIA */
+@media screen and (max-width: 480px) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        padding: 1rem;
+        left: 2%   ;
+        margin: 0;
+    }
+    .contact-form > input {
+        margin: 10px 0;
+        width: 15rem;
+        height: 2rem;
+        border-radius: .5rem;
+        margin: .5rem 0;
+        padding: 1rem;
+        font-size: .8rem;
+    }
+    .cnt-btn {
+        padding: 10px 1rem;
+    }
+    .contact-form > textarea {
+        width: 18rem;
+        height: 5rem;
+        font-size: .8rem;
+    }
+    .cntBox-1 > div {
+        font-size: 3rem;
+        padding: 0 1rem 0px;
+        width: 19rem;
+        top: 4rem;
+        letter-spacing: -2px;
+    }
+    .cntBox-1 {
+        height: 400px;
+    }
+}

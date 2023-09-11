@@ -1,0 +1,115 @@
+.ed-block {
+    /* background: url(https://st3.depositphotos.com/30440304/32776/i/600/depositphotos_327765946-stock-photo-brushed-painted-abstract-background-brush.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: #0C356A; */
+    /* background: linear-gradient(to bottom left, 
+            #01031c 0%, 
+            #e38b89 100%); */
+    /* overflow: hidden; */
+    /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+    rgba(133,58,58,1) 49%, rgb(136, 68, 68) 100%);  */
+}
+
+.about-me-section-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.about-me-section-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.about-me-left-section {
+    flex: 1;
+}
+.about-me-img-wrapper {
+    width: 29rem;
+    height: 39rem;
+    overflow: hidden;
+    border: 1px solid rgba(174, 44, 44, 0.903);
+    border-radius: 2rem;
+    border-radius: 50px;
+    box-shadow:  5px 18px 30px #534e4e;
+    background: rgb(225,152,152);
+    background: linear-gradient(45deg, rgba(225,152,152,.5) 0%, 
+        rgba(255,137,137,.5) 21%, rgba(162,103,138,.5) 44%); 
+    position: relative;
+    margin: 6rem 0 0 0;
+}
+.about-me-img {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    left: 0rem;
+}
+
+.about-me-right-section {
+    flex: 1;
+}
+.about-me-right-section-wrapper {
+    margin: 4rem 0 0 0;
+    padding: 2rem 2rem 0 0;
+}
+.right-experience-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 1rem 0;
+    position: relative;
+}
+.about-me-right-2 {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.807);
+    margin: 0 0 1rem 0;
+}
+.about-me-right-3 {
+    width: max-content;
+    font-size: 1rem;
+    padding: 1rem;
+    /* background-color: #e19898; */
+    box-shadow:inset 0 0 0 0 #e19898b3;
+    border-radius: .5rem;
+    transition: ease-in-out .3s;
+}
+.about-me-right-3:hover {
+    box-shadow: inset 20rem  0 0 0 #e19898ce;
+    color: #000000;
+}
+
+
+
+/* FOR SMALLER MEDIA */
+@media screen and (max-width: 480px) {
+    .about-me-section-1 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .about-me-section-2 {
+        flex-direction: column;
+    }
+    .about-me-right-2 {
+        font-size: .6rem;
+        color: rgba(255, 255, 255, 0.807);
+        margin: 0 0 1rem 0;
+    }
+    .about-me-right-3 {
+        font-size: .8rem;
+        padding: .8rem;
+        border-radius: .5rem;
+    }
+    .about-me-img-wrapper {
+        width: 0;
+        height: 0;
+    }
+    .about-me-right-section-wrapper {
+        margin: 0;
+        padding: 2rem 2rem 0 0;
+    }
+}

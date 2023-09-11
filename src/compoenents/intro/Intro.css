@@ -1,0 +1,200 @@
+.intro-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    /* background: url(https://st3.depositphotos.com/30440304/32776/i/600/depositphotos_327765946-stock-photo-brushed-painted-abstract-background-brush.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.left {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.725);
+}
+
+.right {
+    flex: 1;
+}
+
+/* LEFT BOX */
+.left-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.left-intro {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-name {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.left-title {
+    height: 50px;
+    overflow: hidden;
+}
+
+/* .left-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(136, 188, 58);
+} */
+
+/* .left-title-wrapper {
+    height: 100%;
+    animation: move 2s ease-in-out infinite alternate;
+}
+@keyframes move {
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+} */
+
+.intro-btn {
+    width: max-content;
+    padding: 1rem;
+    border: none;
+    background-color: #e19898;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 40px;
+    border: 1px solid #D5FFD0;
+    transition: 500ms;
+}
+.intro-btn:hover {
+    background-color: #00000080;
+    color: white;
+}
+
+/* RIGHT BOX */
+.right-wrapper {
+    /* position: relative; */
+    width: 100%;
+    height: 745px;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background: rgb(225,152,152);
+    background: linear-gradient(45deg, rgba(225, 152, 152, 0.562) 0%, rgba(255, 137, 137, 0.901) 21%, rgba(162, 103, 138, 0.715) 44%); 
+    backdrop-filter: blur(20px);
+    clip-path: polygon(100% 0%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.right-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -5rem;
+    bottom: 0rem;
+    object-fit: contain;
+}
+/* .clip-polygon {
+    position: absolute;
+    clip-path: polygon(100% 0%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* FOR SMALLER MEDIA */
+@media screen and (max-width: 480px) {
+    .left {
+        height: 100%;
+        width: 100%;
+    }
+    .left-intro {
+        font-size: 1rem;
+    }
+    
+    .left-wrapper {
+        margin: 5rem 0 0 0;
+        height: 65%;
+    }
+    .left-name {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .left-title {
+        height: 50px;
+        font-size: .5rem;
+    }
+    .intro-section {
+        flex-direction: column;
+    }
+    .image-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    .right-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: -5rem;
+        bottom: 0rem;
+        object-fit: contain;
+    }
+    .intro-btn {
+        width: max-content;
+        padding: .5rem;
+        border: none;
+        background-color: #e19898;
+        cursor: pointer;
+        font-size: .6rem;
+        margin-top: 1rem;
+        border-radius: 40px;
+    }
+
+    /* RIGHT BOX */
+    .right {
+        height: 100%;
+        width: 100%;
+    }
+    .right-wrapper {
+        /* position: relative; */
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .image-wrapper {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        background: rgb(225,152,152);
+        background: linear-gradient(45deg, rgba(225, 152, 152, 0.562) 0%, rgba(255, 137, 137, 0.901) 21%, rgba(162, 103, 138, 0.715) 44%); 
+        backdrop-filter: blur(20px);
+        clip-path: polygon(100% 0%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    }
+    .right-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        right: -2rem;
+        bottom: 0rem;
+        object-fit: contain;
+    }
+}
+
+
+
+
+
+
