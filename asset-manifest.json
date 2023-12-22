@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Waqhar-Portfolio/static/css/main.db7a2400.css",
-    "main.js": "/Waqhar-Portfolio/static/js/main.08e34cc3.js",
+    "main.css": "/Waqhar-Portfolio/static/css/main.03dee76d.css",
+    "main.js": "/Waqhar-Portfolio/static/js/main.1b86b06e.js",
     "static/js/787.bf90b066.chunk.js": "/Waqhar-Portfolio/static/js/787.bf90b066.chunk.js",
     "static/media/at_jindal.jpg": "/Waqhar-Portfolio/static/media/at_jindal.9884b3317678a8aa3ac0.jpg",
     "static/media/construction.png": "/Waqhar-Portfolio/static/media/construction.158afb61aebba107deff.png",
@@ -11,12 +11,12 @@
     "static/media/on-mountains.png": "/Waqhar-Portfolio/static/media/on-mountains.ed55d35249190183dabc.png",
     "static/media/me1.png": "/Waqhar-Portfolio/static/media/me1.ded75e8431c1df5a470e.png",
     "index.html": "/Waqhar-Portfolio/index.html",
-    "main.db7a2400.css.map": "/Waqhar-Portfolio/static/css/main.db7a2400.css.map",
-    "main.08e34cc3.js.map": "/Waqhar-Portfolio/static/js/main.08e34cc3.js.map",
+    "main.03dee76d.css.map": "/Waqhar-Portfolio/static/css/main.03dee76d.css.map",
+    "main.1b86b06e.js.map": "/Waqhar-Portfolio/static/js/main.1b86b06e.js.map",
     "787.bf90b066.chunk.js.map": "/Waqhar-Portfolio/static/js/787.bf90b066.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db7a2400.css",
-    "static/js/main.08e34cc3.js"
+    "static/css/main.03dee76d.css",
+    "static/js/main.1b86b06e.js"
   ]
 }
