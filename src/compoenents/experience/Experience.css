@@ -10,12 +10,16 @@
 }
 .experience-section-body {
     margin-top: 1.5rem;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     gap: 2rem;
 }
 .experience-section-1 {
-    flex: 1;
+    /* flex: 1; */
+    width: 40%;
+    height: 20rem;
+    float: left;
+    margin: 0 2rem .5rem 0;
 }
 .experience-section-title {
     font-size: 2rem;
@@ -33,10 +37,12 @@
     /* border: 1px solid rgba(255, 0, 0, 0.363); */
     border: 1px solid #D5FFD0;
     overflow: hidden;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow:  5px 18px 30px #534e4e;
     background-color: #e198987e;
     transition: 1s all;
+    float: left; 
+    margin-right: 20px; 
 }
 .experience-section-img {
     position: absolute;
@@ -58,11 +64,12 @@
     color: #D5FFD0;
 }
 .previous-experience-desc {
-    font-size: .96rem;
+    font-size: .90rem;
     color: white;
 }
 .experience-section-2 {
     flex: 1;
+    overflow: hidden;
 }
 .previous-experience-detail {
     padding: 1rem;
