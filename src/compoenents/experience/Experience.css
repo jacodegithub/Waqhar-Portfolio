@@ -12,6 +12,7 @@
     margin-top: 1.5rem;
     /* display: flex;
     flex-direction: row; */
+    margin-bottom: 5rem;
     gap: 2rem;
 }
 .experience-section-1 {
@@ -64,7 +65,7 @@
     color: #D5FFD0;
 }
 .previous-experience-desc {
-    font-size: .90rem;
+    font-size: .95rem;
     color: white;
 }
 .experience-section-2 {

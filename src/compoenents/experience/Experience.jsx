@@ -20,18 +20,18 @@ export const Experience = () => {
                     <div className="previous-experience-detail">
                         <div className='previous-experience'>Previous Experience:</div>
                         <div className='previous-experience-post'>Assistant Manager | Jindal Steel Works (JSW) | [Dec 2019 - Dec 2022]</div>
-                        
+                        <br />
                         <div className='previous-experience-desc'>
                         <div>During my 3-year tenure at Jindal Steel Works (JSW), I served as an Assistant 
                             Backend Developer, contributing to ERP model 
                             project. In this role, I played a key part in enhancing 
                             backend systems and ensuring their optimal performance.
                         </div>
+                        <br />
+                        <div>During my initial year at JSW, I played a crucial role as an HR Assistant in managing the company's response to the COVID crisis. My responsibilities included overseeing employee well-being, addressing concerns related to the pandemic, and managing the onboarding and offboarding processes. </div>
                         <br></br>
-                        <div>During my initial year at JSW, I played a crucial role as an HR Assistant in managing the company's response to the COVID crisis. My responsibilities included overseeing employee well-being, addressing concerns related to the pandemic, and managing the onboarding and offboarding processes. Subsequently, I transitioned into the role of Assistant Manager, where I focused on maintaining seamless production operations and machinery efficiency. Leading a team of ten, I successfully minimized operational downtime and efficiently addressed machinery issues, further enhancing my technical skills and leadership abilities during my overall three-year tenure.</div>
-                        <br></br>
-                        <div>Contributed to the development of an ERP model 
-                            project, ensuring seamless integration and efficient 
+                        <div>
+                        Subsequently, I transitioned into the role of Assistant Backend developer, where I focused on development of an ERP model project, ensuring seamless integration and efficient 
                             data management within the system. 
                             Spearheaded the design and implementation of a 
                             robust stock management application, enhancing
